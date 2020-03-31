@@ -1,9 +1,19 @@
+# Introduction to Debugging
+
 **Title:** Introduction to Debugging <br>
 **Type:** Morning Lecture <br>
 **Duration:** 1:30 <br>
 **Creator:** Esin Saribudak <br>
 **Competencies:** Debugging, Problem Solving, JavaScript, Dev Tools, VS Code <br>
 **Prerequisites:** JavaScript, VS Code, Node.js installed locally (if you have not yet installed Node, please refer back to your Installfest [repo](https://git.generalassemb.ly/seir-323/installfest/blob/master/node.md) and install Node)
+
+<hr>
+
+## Instructions
+
+1. Fork this repo to your own account. 
+2. In Terminal, change directory into `sei/lessons` and clone this repository down to your computer. (No need to create your own branch as we will not be pushing code up to the remote or submitting a PR. 
+3. Use `cd/intro-to-debugging` to change directory into this repo, then `code .` to open in VS Code. 
 
 <hr>
 
