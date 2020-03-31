@@ -3,7 +3,7 @@
 **Duration:** 1:30 <br>
 **Creator:** Esin Saribudak <br>
 **Competencies:** Debugging, Problem Solving, JavaScript, Dev Tools, VS Code <br>
-**Prerequisites:** JavaScript, VS Code, Node.js installed locally (if you have not yet installed Node, please refer back to your Installfest [repo](https://git.generalassemb.ly/seir-129/installfest/blob/master/node.md) and install Node)
+**Prerequisites:** JavaScript, VS Code, Node.js installed locally (if you have not yet installed Node, please refer back to your Installfest [repo](https://git.generalassemb.ly/seir-323/installfest/blob/master/node.md) and install Node)
 
 <hr>
 
