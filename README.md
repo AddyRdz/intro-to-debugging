@@ -201,7 +201,9 @@ Getting errors in your code can be really frustrating, but they can also be real
 
 ![That moment when your code works](images/tonystark.jpg)
 
-Next, we will get some practice putting these tools to use!
+## JS Debugging Errors Mini Lab
+
+Next, we will get some practice putting these concepts to use with a mini lab on debugging JavaScript errors linked [here](https://git.generalassemb.ly/seir-323/js-debugging-errors). 
 
 ## Additional Resources
 
