@@ -30,7 +30,7 @@
 
 Throughout your career as software engineer, you will encounter many errors, or "bugs" in your code. These errors may be the result of problems with syntax, references, logic, scope, methods, and so on. The process of determining the causes of these errors and resolving them is called "debugging."
 
-Strong debugging skills are often considered to be one of the characteristics that separates junior developers from senior developers. During job interviews, potential employers may also ask you about a difficult bug you encountered and how you solved it.
+Strong debugging skills are often considered to be one of the characteristics that separates junior developers from senior developers. As we gradually release responsibility to you throughout the course, it will be increasingly up to you to solve your bugs. During job interviews, potential employers may also ask you about a difficult bug you encountered and how you solved it.
 
 Just like anything else we teach you in this course, debugging is a _SKILL_ -- you will get better at it over time, with more practice and more experience. And by taking a **methodical approach** to debugging, understanding the range of available **debugging tools and options**, and getting practice at **finding errors**, you will become a faster, more efficient debugger AND a better developer overall. 💪
 
@@ -44,21 +44,21 @@ When you encounter a bug, your first instinct may be to dive into debugging and 
 
 However, if you do that, you might forget what changes you made and what approaches you tried. Instead, consider taking a structured, step-by-step approach to debugging.
 
-Below is a useful series of questions to ask yourself when debugging.
+Below is a useful series of questions to ask yourself when debugging. These steps begin assuming that you've already recognized that a bug exists, either from incorrect output in your console or error messages. 
 
 1. **What is my error?**
-    - Define your error in the simplest terms possible.
-    - Make sure you know HOW to reproduce the error.
+    - Define your error in the simplest terms possible. (JS's error message often does this for you, e.g., 'SyntaxError'.)
+    - Make sure you know HOW to reproduce the error before changing your code. (More applicable when writing bigger programs.)
 2. **Where is my error?**
     - Narrow down the location of your bug to the file, code block, and line if you can.
     - JavaScript often gives file and line numbers in its error messages, which can point you in the right direction.
-    - Good code formatters also highlight problem areas (usually syntax issues), so look for red squiggly lines in VS Code .
+    - Good code formatters also highlight problem areas (usually syntax issues), so look for red squiggly lines in VS Code.
     - You can also comment out code and comment it back in one block at a time to locate the source of the problem.
     - More sophisticated methods will be covered below!
 3. **What is my code supposed to be doing there?**
     - If you don't yet have pseudo-code or comments, add them in line by line to translate what you think your code is doing.
     - As you examine your code, consider issues such as scope, hoisting, side effects, etc.
-    - Sometimes this process alone helps you spot your error!
+    - Sometimes this process alone helps you spot your error! [Rubberducking](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/) or [pair-programming](https://www.agilealliance.org/glossary/pairing/)  are especially helpful with this process. 
 4. **How do I test my assumptions?**
     - Once you have a good understanding of what the code should be doing, use debugging tools to test whether your assumptions about the code are correct.
     - Determine where in the code to place console methods or a breakpoint to test whether your assumptions regarding the code's behavior are correct.
@@ -79,7 +79,7 @@ In your `script.js` file, there is a function called sumCubes that is broken. Pr
 
 ![Hitting console.log](images/consolelog.jpg)
 
-As a new developer, you probably rely heavily on console.log() for not just debugging, but understanding what your code is doing. Console is a built-in JavaScript object, and like many other built-in objects (Arrays, Math, etc.), Besides "log", Console has a multitude of other methods (functions that belong to an object) available to us.
+As a new developer, you probably rely heavily on console.log() for not just debugging, but understanding what your code is doing. Console is a built-in JavaScript object, and like many other built-in objects (Arrays, Math, Document, etc.), besides ".log()", Console has a multitude of other methods (functions that belong to an object) available to us.
 
 ## `console.error()`
 
@@ -115,7 +115,7 @@ const userInfo = {
 	},
 	userThree: {
 		userName: 'gordoTRON',
-		password: 'kibbles4LYFE',
+		password: 'iamacat',
 		email: 'gordon@pets.com'
 	}
 };
