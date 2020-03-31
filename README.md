@@ -58,6 +58,7 @@ Below is a useful series of questions to ask yourself when debugging. These step
 
 1. **What is my error?**
     - Define your error in the simplest terms possible. (JS's error message often does this for you, e.g., 'SyntaxError'.)
+    - Know your six basic types of [JavaScript errors](https://www.htmlgoodies.com/html5/javascript/handling-javascript-errors-by-type.html) and what they mean.
     - Make sure you know HOW to reproduce the error before changing your code. (More applicable when writing bigger programs.)
 2. **Where is my error?**
     - Narrow down the location of your bug to the file, code block, and line if you can.
