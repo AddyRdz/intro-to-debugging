@@ -4,7 +4,7 @@
 
 //The code below is supposed to return the sum of the cubes up to the parameter n. For example, if n=4, the function should return 0^3 + 1^3 + 2^3 + 3^3 + 4^3 = 100. However, the code is broken. Using the methodical approach discussed in the README, write your answers to the questions below.
 // function sumCubes(n) {
-// 	for (let i = 0; i <= n; i++) {
+// 	for (let i = 1; i <= n; i++) {
 // 		let sum = 0;
 // 		sum += i ** 3;
 // 	}
