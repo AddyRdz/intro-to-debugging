@@ -133,8 +133,6 @@ const userInfo = {
 console.table(userInfo);
 ```
 
-> You can also console log any variable as an object!
-
 ## `console.trace()`
 
 If you are trying to figure out where in the code a function is being called, you can include a `console.trace()` message to place a metaphorical breadcrumb in the call stack.
@@ -221,3 +219,4 @@ Next, we will get some practice putting these concepts to use with a mini lab on
 -   W3 Schools provides a high-level overview of debugging [here](https://www.w3schools.com/js/js_debugging.asp).
 -   This [video](https://www.youtube.com/watch?v=TtsvMRxmfGA) goes into much greater depth of all the different debugging tools available.
 -   This [article](https://raygun.com/javascript-debugging-tips) covers common debugging techniques with good visuals of the code being used.
+- Google's [documentation](https://developers.google.com/web/tools/chrome-devtools/console/api)  of the Console API.
