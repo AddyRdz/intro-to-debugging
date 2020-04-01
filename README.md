@@ -205,6 +205,8 @@ Both Chrome and VS Code also allow you to manually "mark" specific breakpoints i
 
 Follow Google's own [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) for using their Chrome dev tools to debug JavaScript.
 
+> Why are we following the Google tutorial? As you've seen, devs spend a lot of time reading documentation. It's important to get used to skimming through tutorials at a high level, picking the highpoints, and then trying things out on your own. That's when the magic starts to happen. ❤️
+
 <hr>
 
 ## Conclusion
