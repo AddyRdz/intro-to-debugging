@@ -5,7 +5,7 @@
 **Duration:** 1:30 <br>
 **Creator:** Esin Saribudak <br>
 **Competencies:** Debugging, Problem Solving, JavaScript, Dev Tools, VS Code <br>
-**Prerequisites:** JavaScript, VS Code, Google Chrome, Node.js installed locally (if you have not yet installed Node, please refer back to your Installfest [repo](https://git.generalassemb.ly/seir-323/installfest/blob/master/node.md) and install Node)
+**Prerequisites:** JavaScript, VS Code, Google Chrome
 
 <hr>
 
@@ -181,9 +181,9 @@ These are just some of the additional console methods. There are many more conso
 
 ![Chrome debugger](images/chromedebugger.png)
 
-Google Chrome and VS Code both have an interactive debugger built in. Gaining experience debugging with these more precise tools can help you become an even better developer.
+Google Chrome has an interactive debugger built in. Gaining experience debugging with these more precise tools can help you become an even better developer.
 
-In both Chrome and VS Code, you start the debugger at a specific point in your code by calling `debugger`:
+In Chrome, you start the debugger at a specific point in your code by calling `debugger`:
 
 ```javascript
 function evenSum(num) {
@@ -203,8 +203,7 @@ Both Chrome and VS Code also allow you to manually "mark" specific breakpoints i
 
 ### ⌛ Activity (20 min): You try!
 
-1. Follow Google's own [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) for using their Chrome dev tools to debug JavaScript.
-2. Next follow along with VS Code's [guide](https://code.visualstudio.com/docs/introvideos/debugging) to using their built-in debugger.
+Follow Google's own [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) for using their Chrome dev tools to debug JavaScript.
 
 <hr>
 
@@ -217,6 +216,10 @@ Getting errors in your code can be really frustrating, but they can also be real
 ## JS Debugging Errors Mini Lab
 
 Next, we will get some practice putting these concepts to use with a mini lab on debugging JavaScript errors linked [here](https://git.generalassemb.ly/seir-323/js-debugging-errors). 
+
+## Hungry for More? 
+
+- Dig into the tutorial for VS Code's built-in debugger with their [guide](https://code.visualstudio.com/docs/introvideos/debugging).
 
 ## Additional Resources
 
