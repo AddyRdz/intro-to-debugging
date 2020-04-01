@@ -80,7 +80,7 @@ Below is a useful series of questions to ask yourself when debugging. These step
 
 ### ⌛ Activity (15 min): You try!
 
-In your `script.js` file, there is a function called sumCubes that is broken. Practice following the protocol above to find the bug and fix it!
+In your `script.js` file, there is a function called sumCubes that is broken. Practice following the protocol above to find the bug and fix it with what you already know about JavaScript!
 
 > Remember to remove any console logs, breakpoints, and other debugging tools from code that will be deployed and any other projects that you plan to show employers.
 
@@ -138,16 +138,22 @@ console.table(userInfo);
 If you are trying to figure out where in the code a function is being called, you can include a `console.trace()` message to place a metaphorical breadcrumb in the call stack.
 
 ```javascript
-function functionTwo() {
-	return functionThree();
-}
+//This example uses ES6 arrow function notation
 
-function functionThree() {
+const first = () => {
+	second();
+};
+const second = () => {
+	third();
+};
+const third = () => {
+	fourth();
+};
+const fourth = () => {
 	console.trace();
-}
-
+};
 //remember to call the function to trace it:
-functionThree();
+first();
 ```
 
 ## `console.log() with style`
@@ -170,8 +176,6 @@ In `script.js`, write your own console messages for each of the console messages
 These are just some of the additional console methods. There are many more console methods out there to learn -- check out the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Console) and try some out!
 
 <hr>
-
-#### Break (10 min)
 
 ## Interactive Debuggers Overview
 
