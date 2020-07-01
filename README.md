@@ -201,14 +201,6 @@ Both Chrome and VS Code also allow you to manually "mark" specific breakpoints i
 
 #### 🤔 What do you think are some of the benefits of using the built-in debuggers?
 
-### ⌛ Activity (20 min): You try!
-
-Follow Google's own [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) for using their Chrome dev tools to debug JavaScript.
-
-> Why are we following the Google tutorial? As you've seen, devs spend a lot of time reading documentation. It's important to get used to skimming through tutorials at a high level, picking the highpoints, and then trying things out on your own. That's when the magic starts to happen. ❤️
-
-<hr>
-
 ## Conclusion
 
 Getting errors in your code can be really frustrating, but they can also be really instructive and revealing. View errors as an opportunity to gain a deeper and more intuitive understanding of how JavaScript works, as well as a chance to become stronger at analytical thinking and problem solving. And you'll realize after finally solving your error that there is no better feeling than when your code finally runs the way it's supposed to.
@@ -220,6 +212,8 @@ Getting errors in your code can be really frustrating, but they can also be real
 Next, we will get some practice putting these concepts to use with a mini lab on debugging JavaScript errors linked [here](https://git.generalassemb.ly/seir-622/js-debugging-errors). 
 
 ## Hungry for More? 
+
+- Follow Google's own [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) for using their Chrome dev tools to debug JavaScript.
 
 - Dig into the tutorial for VS Code's built-in debugger with their [guide](https://code.visualstudio.com/docs/introvideos/debugging).
 
