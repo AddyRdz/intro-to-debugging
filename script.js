@@ -58,15 +58,20 @@
 //console.table(userInfo);
 
 // // TRACE EXAMPLE
-// function functionTwo() {
-// 	return functionThree();
-// }
-
-// function functionThree() {
+// const first = () => {
+// 	second();
+// };
+// const second = () => {
+// 	third();
+// };
+// const third = () => {
+// 	fourth();
+// };
+// const fourth = () => {
 // 	console.trace();
-// }
+// };
 // //remember to call the function to trace it:
-// functionThree();
+// first();
 
 // // STYLIZED EXAMPLE
 // console.log(
